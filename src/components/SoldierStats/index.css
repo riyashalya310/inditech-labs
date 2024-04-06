@@ -1,0 +1,116 @@
+body{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sizing{
+    width: 10vh;
+}
+.cookie{
+    font-weight: bold;
+    font-size: 20px;
+}
+.span{
+    color: grey;
+    font-size: 15px;
+}
+
+.span-num{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    margin-right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.span-count{
+    font-size: 15px;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}
+.horizontal-para{
+    display: flex;
+    flex-direction: row;
+    width: 40vh;
+}
+.verticalGuns{
+    display: flex;
+    flex-direction: column;
+}
+.margin-top{
+    margin-top: 5vh;
+    padding-left: 10vh;
+}
+.horizontalGuns{
+    display: flex;
+    flex-direction: row;
+}
+.image1{
+    width: 20vh;
+    height: 5vh;
+}
+.image2{
+    width: 20vh;
+    height: 10vh;
+}
+.item-spacing{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vertical-center>p:nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+}
+.horizontal-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.grenade{
+    width: 80px;
+    height: 80px;
+}
+#verticalGuns:hover{
+    content: url("../../images/guns/hover/vehicle.png");
+}
+#primaryGuns:hover{
+    content: url("../../images/guns/hover/Primary.png");
+}
+#classGuns:hover{
+    content: url("../../images/guns/hover/Class.png");
+}
+#horizontalGuns:hover{
+    content: url("../../images/guns/hover/Sidearm.png");
+}
+
+.padding-right{
+    padding-right: 4px;
+}

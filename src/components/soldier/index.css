@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    width: 100vh;
+    height: 80vh;
+    background-image: url("../../images/multiplayer__select-image-w.png");
+    height: 100vh;
+    background-size: cover;
+    margin-right: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 3%;
+}
+.outer-container{
+    display: flex;
+    flex-direction: row;
+}
+.horizontalLine{
+    display: flex;
+    flex-direction: row;
+}
+.vertical-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.leftsidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.soldierProfile{
+   margin-left: 4%;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   padding-top: 1%;
+}
+.dogImage{
+    width: 20vh;
+    height: 10vh;
+    margin-bottom: 20vh;
+}
+.soldierImage{
+    padding-top: 10vh;
+    width: 20vh;
+    height: 80vh;
+    padding-right: 10px;
+}

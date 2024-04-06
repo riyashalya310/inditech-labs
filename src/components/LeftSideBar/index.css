@@ -1,0 +1,82 @@
+.horizontal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 0;
+}
+.leftsidebar{
+    height: 100vh;
+    width: 10vh;
+}
+.inner-container-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.battleground{
+    width: 80px;
+    height: 50px;
+}
+.grenade{
+    width: 80px;
+    height: 80px;
+}
+#rectangle:hover{
+    content: url("../../images/side-images/side-menu/BF5/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+
+#career:hover{
+    content: url("../../images/side-images/side-menu/BF1/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+#game:hover{
+    content: url("../../images/side-images/side-menu/BF4/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+
+#game1:hover{
+    content: url("../../images/side-images/side-menu/BH/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+
+#game2:hover{
+    content: url("../../images/side-images/side-menu/career/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+
+#vector:hover{
+    content: url("../../images/side-images/side-menu/watch/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+
+#bsfive:hover{
+    content: url("../../images/side-images/side-menu/news/Hover.png");
+    width: 100%;
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+}
+.leftitem{
+    width: 50px;
+    height: 50px;
+}

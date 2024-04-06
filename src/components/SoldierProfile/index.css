@@ -1,0 +1,8 @@
+.image:hover{
+    content: url("../../images/rightside-images/Off. + On full..png");
+    width: 30vh;
+    height: 100vh;
+    z-index: 2;
+    margin-right: 0;
+    
+}
